@@ -1,0 +1,51 @@
+html, body{
+	background: #9ccb95;
+	height: 100%;
+	margin: 0;
+	padding: 0; 
+}
+
+
+
+canvas{
+	background: #9ccb95;
+	margin: auto;
+	position: absolute;
+	top:  0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+h2 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 9999;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 50px;
+	display: none;
+	position: absolute;
+	top: 45%;
+	left: 38%;
+	z-index: 9999;
+	animation: slideUp;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes slideUp {
+	from {
+		transform: scale(0);
+	}
+
+	to {
+		transform: scale(1);
+	}
+}
+
